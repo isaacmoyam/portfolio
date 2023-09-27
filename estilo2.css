@@ -1,0 +1,76 @@
+html body{
+	margin:0;
+	background-image:url("fondo.png");
+	background-size: cover;
+	height:100%;
+}
+
+#navegador{
+	position:relative;
+	width:100%;
+}
+
+#navegador img{
+	position:absolute;
+	width:20%;
+	bottom:-10%;
+}
+
+#navegador ul {
+  list-style: none; 
+  background-color:black;
+  text-align:center;
+  margin:0;
+  padding:2%;
+}
+
+#navegador li {
+  display: inline-block;  
+  padding:1.6%;
+  text-align:center;
+}
+
+#navegador .menu {
+  color: white; 
+  text-decoration: none; 
+  font-size: 95%; 
+  font-family:arial;
+  padding:1.6%;
+  border-radius:24%;
+  background-color:#1a1a1a;
+
+}
+
+#navegador .menu:hover{
+	background-color:#262626;
+}
+
+#contenido{
+	background-color:white;
+	width:80%;
+	margin: 1% auto;
+	padding:2%;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	font-family:verdana;
+	border-radius:5px;
+}
+
+#contenido p{
+	margin:2% 0;
+	padding:1%;
+	border-radius:5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#pie{
+	position:fixed;
+	bottom:0;
+	width:100%;
+	font-family:arial;
+	font-weight:bold;
+	text-align:center;
+	padding:0.3%;
+	background-color:black;
+	color:white;
+}
+
