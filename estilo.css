@@ -1,21 +1,23 @@
-body{
+html body{
 	margin:0;
 	background-image:url("fondo.png");
 	background-size: cover;
+	height:100%;
 }
 
-#navegador{
-	position:fixed;
+header{
+	position:relative;
 	width:100%;
 }
 
-#navegador img{
+header img{
 	position:absolute;
-	width:20%;
-	bottom:-10%;
+	width:15%;
+	bottom:-30%;
+	left:3%;
 }
 
-#navegador ul {
+header ul {
   list-style: none; 
   background-color:black;
   text-align:center;
@@ -23,48 +25,66 @@ body{
   padding:2%;
 }
 
-#navegador li {
-  display: inline-block;  
-  padding:1.6%;
+header li {
+  padding:0.5%;
   text-align:center;
+  display:inline;
 }
 
-#navegador .menu {
+header .menu {
   color: white; 
   text-decoration: none; 
   font-size: 95%; 
   font-family:arial;
-  padding:1.6%;
-  border-radius:24%;
+  padding:1.1%;
+  border-radius:24px;
   background-color:#1a1a1a;
 
 }
 
-#navegador .menu:hover{
+header .menu:hover{
 	background-color:#262626;
 }
 
 #foto{
-	position:relative;
+	position:absolute;
 	top:25%;
 	width:45%;
 	z-index:-1;
 }
 
 #presentacion{
-	position:relative;
+	position:absolute;
 	font-family:arial;
-	bottom:20%;
+	bottom:35%;
 	left:53%;
 	color:white;
 	background-color:black;
 	width:40%;
 	padding:2%;
-	height:30%;
+	height:20%;
 	text-align:center;
+	border-radius:20px;
 }
 
-#pie{
+#contenido{
+	background-color:white;
+	width:80%;
+	margin: 1% auto;
+	padding:2%;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	font-family:verdana;
+	border-radius:5px;
+}
+
+#contenido p{
+	margin:2% 0;
+	padding:1%;
+	border-radius:5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+footer{
 	position:fixed;
 	bottom:0;
 	width:100%;
